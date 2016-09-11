@@ -12,7 +12,7 @@ var smtpConfig = {
   }
 };
 
-var mailtransport = nodemailer.createTransport (smtpConfig);
+//var mailtransport = nodemailer.createTransport (smtpConfig);
 
 function layout (body) {
   return [
