@@ -112,7 +112,7 @@ site.post ("/contact", function (request, response) {
   ].join ('')));
 });
 
-site.listen (process.env.PORT);
+site.listen (process.env.PORT || 8080);
 
 
 
